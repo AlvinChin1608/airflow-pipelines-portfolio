@@ -61,7 +61,6 @@ In your browser, go to localhost:8080 or http://0.0.0.0:8080, then log in with t
   "api_key": "1234"
   }
   ```
-![](https://github.com/AlvinChin1608/airflow-pipelines-portfolio/blob/main/demo/airflowconnection.png)
 
 2. Start the DAG via the Airflow web UI
 
