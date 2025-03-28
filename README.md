@@ -50,7 +50,21 @@ docker-compose down
 
 In your browser, go to localhost:8080 or http://0.0.0.0:8080, then log in with the username and password: airflow.
 
+## Airflow Setup 
+1. Add an Airflow connection for OpenWeatherMap API:
+![](https://github.com/AlvinChin1608/airflow-pipelines-portfolio/blob/main/demo/airflowconnection.png)
 
+- Connection Type: HTTP
+- Host: api.openweathermap.org
+- Connection ID: weathermap_api
+- Extra:
+  ```python
+  {
+  "api_key": "1234"
+  }
+  ```
+
+2. Start the DAG via the Airflow web UI
 
 
 
