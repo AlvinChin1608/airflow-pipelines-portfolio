@@ -91,7 +91,7 @@ s3://weather-s3bucket/{country}/{timestamp}.csv
 | 2025-03-20 12:00:00  | Singapore  | SG  | 06:45:00  | 18:45:00  | 30.5  | 33.1  | 1012  | 78%  |
 
 ## Future Enhancements
-- Pull the file from S3 bucket and push it into a database for historical analysis.
+- Retrieve the file from the S3 bucket and load it into a database for historical analysis.
 - Automate email alerts for extreme weather conditions.
 
 
