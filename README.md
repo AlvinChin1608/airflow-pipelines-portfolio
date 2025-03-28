@@ -79,7 +79,9 @@ In your browser, go to localhost:8080 or http://0.0.0.0:8080, then log in with t
 
 ## S3 File Structure
 The processed CSV files are stored in S3 with the following naming format:
+```python
 s3://weather-s3bucket/{country}/{timestamp}.csv
+```
 
 ![](https://github.com/AlvinChin1608/airflow-pipelines-portfolio/blob/main/demo/s3.png)
 
