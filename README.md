@@ -86,9 +86,7 @@ s3://weather-s3bucket/{country}/{timestamp}.csv
 ![](https://github.com/AlvinChin1608/airflow-pipelines-portfolio/blob/main/demo/s3.png)
 
 ## Example Output Data
-| Snapshot Date  | Place | Country | Sunrise Time | Sunset Time | Temp | Feels Like | Pressure | Humidity | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2025-03-20 12:00:00  | Singapore  | SG  | 06:45:00  | 18:45:00  | 30.5  | 33.1  | 1012  | 78%  |
+![](https://github.com/AlvinChin1608/airflow-pipelines-portfolio/blob/main/demo/csv_file.png)
 
 ## Future Enhancements
 - Retrieve the file from the S3 bucket and load it into a database for historical analysis.
